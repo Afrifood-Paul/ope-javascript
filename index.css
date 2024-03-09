@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.btn-orange{
+    background-color: #eb5d1e;
+}
+.border-radius{
+    border-radius: 20px;
+}
+.text-grey{
+    color: #3e3d3d;
+    font-size: 17px;
+}
+.text-orange{
+    color: #eb5d1e !important;
+}
+.bg-whitesmoke{
+    background-color: #E9F0FA;
+}
+.active{
+    color: #eb5d1e !important;
+}
+.nav-link:hover{
+    color: #eb5d1e !important;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    background-color: #eb5d1e!important;
+    }
+    .navbar .navbar-toggler:focus{
+    background-color: #eb5d1e;
+    }
+.navbar-toggler-icon{
+    background-color: #eb5d1e !important;
+}
+
+#Button:hover {
+    background-color: rgba(235, 93, 30, 0.8) !important;
+}
+.h-font{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bg2{
+    background-color: #E9F0FA;
+    clip-path: polygon(0 23%, 100% 1%, 100% 100%, 0 100%);
+}
+.native-wear, .native, .suit, .cart {
+    margin-top: -20px;
+    cursor: pointer;
+}
+#native-wear {
+    box-shadow: 0px 5px 4px 5px #9cadc4;
+    border-radius: 1px;
+    animation: slideIn 10s infinite ease-in-out;
+}
+@keyframes slideIn {
+    10%{
+        transform: translateX(0); /* start position */
+    }
+    50% {
+        transform: translateX(-10%);
+    }
+}
+#suit-wear{
+    box-shadow: 0px 5px 4px 5px #dae9fe;
+    border-radius: 1px;
+    animation: slideOut 10s infinite ease-in-out;
+}
+@keyframes slideOut {
+    10%{
+        transform: translateX(0); /* start position */
+    }
+    50% {
+        transform: translateX(-10%);
+    }
+}
+#brand {
+    animation: slideOut 10s infinite ease-in-out;
+}
+#bg-native{
+    width: 100%;
+    height: 100vh;
+}
+.border-color{
+    border-left: 3px solid #eb5d1e;
+}
+.product-price, .suit{
+    margin-bottom: -10px;
+}
+#btn{
+    margin-top: -35px;
+}
+
+/*=====media queries=====*/
+@media only screen and (max-width: 768px){
+    .section1{
+        margin-top: 20%;
+        text-align: center;
+    }
+    .heading1 {
+        font-size: 16px !important;
+    }
+    .head1{
+        font-size:x-large;
+    }
+    .product-price{
+        position: relative;
+    }
+    
+    .section2{
+        margin-top: 50%;
+        
+    }
+    .section2, p {
+        
+        text-align: center;
+        z-index: 1;
+    }
+    .hero, img{
+        margin-top: -40%;
+    }
+    .product-price{
+        margin-right: 30px;
+    }
+    #btn, #btn1{
+        margin-top: -40px;
+    }
+    #btn1{
+        margin-left: 15px;
+    }
+}
+
+
+
